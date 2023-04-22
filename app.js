@@ -31,14 +31,5 @@ form.addEventListener("submit", (e) => {
 		} else {
 			output++;
 		}
-	}, 500);
+	}, 50);
 });
-
-let i = 0;
-const timer = setInterval(() => {
-	console.log("dziala");
-	i++;
-	if (i === 5) {
-		clearInterval(timer);
-	}
-}, 1000);
