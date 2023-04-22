@@ -20,7 +20,7 @@ form.addEventListener("submit", (e) => {
 		}
 	});
 	// console.log(score);
+	scrollTo(0, 0);
 	result.querySelector("span").textContent = `${score}%`;
 	result.classList.remove("d-none");
-	scrollTo(0, 0);
 });
